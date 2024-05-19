@@ -11,11 +11,11 @@ Computer Vision projects at UEM
 | --------------------------
 | 22321044@live.uem.es
 
- - [] Project 1
+ - [ ] Project 1
    - TBD
- - [] Project 2
+ - [ ] Project 2
    - TBD
- - [] Project 3
+ - [ ] Project 3
    - TBD
- - [] Project 4
+ - [ ] Project 4
    - TBD
