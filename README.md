@@ -19,3 +19,5 @@ Computer Vision projects at UEM
    - TBD
  - [ ] Project 4
    - TBD
+ - [ ] Class Exercises
+   1. Image generation and manual convolution
