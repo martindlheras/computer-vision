@@ -10,15 +10,15 @@ if __name__ == '__main__':
     print(img.shape)
 
     pic = Image.fromarray(img.astype('uint8'), 'RGB')
-    pic.save('images/random_noise.png')
+    pic.save('img/random_noise.png')
 
     zeros = np.zeros((1000, 1000, 3))
     pic = Image.fromarray(zeros.astype('uint8'), 'RGB')
-    pic.save('images/black.png')
+    pic.save('img/black.png')
 
     ones = 255 * np.ones((1000, 1000, 3))
     pic = Image.fromarray(ones.astype('uint8'), 'RGB')
-    pic.save('images/white.png')
+    pic.save('img/white.png')
 
     for _ in range(1):
 
@@ -34,4 +34,4 @@ if __name__ == '__main__':
                         myimg[x_pixel][y_pixel][channel] = 255
 
         mypic = Image.fromarray(myimg.astype('uint8'), 'RGB')
-        mypic.save('images/square.png')
+        mypic.save('img/square.png')

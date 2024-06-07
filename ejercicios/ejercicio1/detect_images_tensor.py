@@ -7,7 +7,7 @@ KYSIZE = 10
 DETECTION_THRESHOLD = 245
 
 if __name__ == '__main__':
-    pic = Image.open('images/square.png')
+    pic = Image.open('img/square.png')
     image = np.array(pic)
 
     xsize, ysize, nchannels = image.shape
@@ -33,4 +33,4 @@ if __name__ == '__main__':
                 image[x_pixel][y_pixel] = [255, 0, 0]
 
     pic = Image.fromarray(image.astype('uint8'), 'RGB')
-    pic.save('images/image_detected_tensor.png')
+    pic.save('img/image_detected_tensor.png')

@@ -14,7 +14,7 @@ def kernel(image, k_x, k_y, k_c, k_xsize=KXSIZE, k_ysize=KYSIZE):
     return convolution
 
 if __name__ == "__main__":
-    pic = Image.open('images/square.png')
+    pic = Image.open('img/square.png')
     image = np.array(pic)
 
     xsize, ysize, nchannels = image.shape
@@ -37,7 +37,7 @@ if __name__ == "__main__":
                 image[x_pixel][y_pixel] = [255, 0, 0]
 
     pic = Image.fromarray(distance_matrix.astype(np.uint8), 'RGB')
-    pic.save('images/distance_matrix.png')
+    pic.save('img/distance_matrix.png')
 
     pic = Image.fromarray(image.astype(np.uint8), 'RGB')
-    pic.save('images/image_detected.png')
+    pic.save('img/image_detected.png')
