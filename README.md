@@ -11,13 +11,14 @@ Computer Vision projects at UEM
 | --------------------------
 | 22321044@live.uem.es
 
- - [ ] Project 1
-   - TBD
+ - [x] Project 1
+   - Gaussian detection with manually programmed kernels
  - [ ] Project 2
-   - TBD
+   - Transfer Learning and data augmentation for skin cancer dataset
  - [ ] Project 3
    - TBD
  - [ ] Project 4
    - TBD
  - [ ] Class Exercises
    1. Image generation and manual convolution
+   2. Machine Learning for image detection (SVM, CNN, Transfer Learning)
