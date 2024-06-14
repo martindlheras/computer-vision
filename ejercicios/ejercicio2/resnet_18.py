@@ -35,14 +35,15 @@ if __name__ == '__main__':
     model.fc = torch.nn.Linear(512, 2)
     model = model.to('cpu')
     criterion = torch.nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=0.0001, momentum=0.9)
+    optimizer = torch.optim.Adadelta(model.fc.parameters(), lr=1.0)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=2, gamma=0.5)
 
     train_loss = []
     train_accuracy = []
     test_loss = []
     test_accuracy = []
 
-    num_epochs = 10
+    num_epochs = 20
     start_time = time.time()
 
     for epoch in range(num_epochs):
