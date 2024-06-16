@@ -13,7 +13,7 @@ Computer Vision projects at UEM
 
  - [x] Project 1
    - Gaussian detection with manually programmed kernels
- - [ ] Project 2
+ - [x] Project 2
    - Transfer Learning and data augmentation for skin cancer dataset
  - [ ] Project 3
    - TBD
