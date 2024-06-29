@@ -15,8 +15,8 @@ Computer Vision projects at UEM
    - Gaussian detection with manually programmed kernels
  - [x] Project 2
    - Transfer Learning and data augmentation for skin cancer dataset
- - [ ] Project 3
-   - TBD
+ - [x] Project 3
+   - Semantic Segmentation using UNet for flood images
  - [ ] Project 4
    - TBD
  - [ ] Class Exercises
